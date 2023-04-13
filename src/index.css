@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.active {
+  border-bottom: 1px solid #c33ec3;
+}
+a {
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px; /* Space for the underline */
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px; /* Height of the underline */
+  width: 0; /* Initial width of the underline */
+  background-color: #c33ec3; /* Color of the underline */
+  transition: width 0.5s ease-in-out; /* Animation transition */
+}
+
+a:hover::after {
+  width: 100%; /* Width of the underline on hover */
+  color: #fff;
+}
+
+#header {
+  height: 70vh !important;
+  overflow: hidden !important;
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y).ant-dropdown .ant-dropdown-menu,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-dropdown-menu-submenu
+  .ant-dropdown-menu {
+  padding: 4px;
+  list-style-type: none;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-inline .ant-menu-item,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-vertical .ant-menu-item,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-inline
+  .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-vertical
+  .ant-menu-submenu-title {
+  height: 40px;
+  line-height: 40px;
+  padding-inline: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-inline: 0px !important;
+  margin-block: 1px !important;
+  width: calc(100% - 8px);
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-inline > .ant-menu-item,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-vertical
+  > .ant-menu-item,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-inline
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-1vtf12y).ant-menu-vertical
+  > .ant-menu-submenu
+  > .ant-menu-submenu-title {
+  margin-top: -12px !important;
+}
+
+.slick-dots .slick-dots-bottom button {
+  background-color: #c33ec3 !important;
+}
