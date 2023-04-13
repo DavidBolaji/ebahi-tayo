@@ -6,7 +6,7 @@ import EbahiCourse from "./images/ebahi-course.jpg";
 import EbahiVocal from "./images/ebahi-vocal.jpg";
 import EbahiPrayedUp from "./images/ebahi-prayed-up.jpg";
 import EbahiMusic from "./images/ebahi-track.jpg";
-import EbahiReflection from "./images/ebahi-reflection.webp";
+import EbahiReflection from "./images/Ebahi-reflection.webp";
 import Logo from "./images/logo.jpg";
 
 import ReflectionPDF from "./doc/Reflections.pdf";
