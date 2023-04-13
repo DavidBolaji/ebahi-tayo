@@ -1,5 +1,5 @@
 import EbahiHome from "./images/ebahi-main.jpg";
-import EbahiAbout from "./images/ebahi-about.jpg";
+import EbahiAbout from "./images/Ebahi-about.jpg";
 import EbahiBook from "./images/ebahi-books.jpg";
 import EbahiBlog from "./images/ebahi-blog.jpg";
 import EbahiCourse from "./images/ebahi-course.jpg";
