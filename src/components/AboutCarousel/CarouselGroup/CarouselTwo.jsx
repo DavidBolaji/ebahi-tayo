@@ -18,7 +18,7 @@ export const CarouselTwo = ({ flexDirection }) => {
         // style={flexDirection}
       >
         <img
-          src={IMAGES.EbahiAbout}
+          src={IMAGES.EbahiVocal}
           alt="ebahi-tayo"
           className="object-cover object-center w-full h-full"
         />

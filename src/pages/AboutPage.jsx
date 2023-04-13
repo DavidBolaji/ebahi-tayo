@@ -2,6 +2,7 @@ import React from "react";
 import { IMAGES } from "../constants";
 import HeroComponent from "../components/HeroComponent";
 import AboutFull from "../components/AboutCarousel/AboutFull";
+import GalleryComponent from "../components/GalleryComponent";
 
 const AboutPage = () => {
   return (
@@ -13,6 +14,7 @@ const AboutPage = () => {
         text="Music Minister"
       />
       <AboutFull />
+      <GalleryComponent />
     </>
   );
 };

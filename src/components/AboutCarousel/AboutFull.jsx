@@ -4,6 +4,8 @@ import CarouselMain from "./CarouselMain";
 import { CarouselOne } from "./CarouselGroup/CarouselOne";
 import { CarouselTwo } from "./CarouselGroup/CarouselTwo";
 import { CarouselThree } from "./CarouselGroup/CarouselThree";
+import { CarouselFour } from "./CarouselGroup/CarouselFour";
+import { CarouselFive } from "./CarouselGroup/CarouselFive";
 
 const AboutFull = () => {
   const pages = [
@@ -23,6 +25,18 @@ const AboutFull = () => {
       id: useId(),
       render: () => {
         return <CarouselThree />;
+      },
+    },
+    {
+      id: useId(),
+      render: () => {
+        return <CarouselFour />;
+      },
+    },
+    {
+      id: useId(),
+      render: () => {
+        return <CarouselFive />;
       },
     },
   ];

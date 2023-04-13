@@ -11,6 +11,7 @@ import BlogPage from "./pages/BlogPage";
 import BookPage from "./pages/BookPage";
 import CoursePage from "./pages/CoursePage";
 import ChallengePage from "./pages/ChallengePage";
+
 import React from "react";
 
 const route = createBrowserRouter([
